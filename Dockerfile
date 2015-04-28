@@ -7,4 +7,5 @@ RUN apt install -y git wget
 RUN pip install Sphinx
 RUN pip install sphinx_bootstrap_theme
 RUN pip install sphinxcontrib-phpdomain
+RUN apt install -y python-reportlab
 RUN pip install rst2pdf
